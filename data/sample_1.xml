@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="sample_1.xsl"?>
+
+<collection>
+
+<schema>
+<text>
+<txt1>
+The foxes are getting in at night and attacking the chickens. 
+</txt1>
+<pron> They </pron>
+<txt2> 
+have gotten very bold.
+</txt2>
+</text>
+<quote>
+<quote1>
+</quote1>
+<pron> They </pron>
+<quote2>
+have gotten very bold.
+</quote2>
+</quote>
+<answers>
+<answer> The foxes </answer>
+<answer> The chickens </answer>
+</answers>
+<correctAnswer> A  </correctAnswer>
+<source> Ernest Davis </source>
+</schema>
+
+<schema>
+<text>
+<txt1>
+The foxes are getting in at night and attacking the chickens. 
+</txt1>
+<pron> They </pron>
+<txt2> 
+have gotten very nervous.
+</txt2>
+</text>
+<quote>
+<quote1>
+</quote1>
+<pron> They </pron>
+<quote2>
+have gotten very nervous.
+</quote2>
+</quote>
+<answers>
+<answer> The foxes </answer>
+<answer> The chickens </answer>
+</answers>
+<correctAnswer> B  </correctAnswer>
+<source> Ernest Davis </source>
+</schema>
+
+</collection>

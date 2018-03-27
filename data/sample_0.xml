@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="sample_0.xsl"?>
+
+<collection>
+
+<schema>
+<text>
+<txt1>
+Dan had to stop Bill from toying with the injured bird.
+</txt1>
+<pron> He </pron>
+<txt2> 
+is very compassionate.
+</txt2>
+</text>
+<quote>
+<pron>He </pron>
+<quote2>
+is very compassionate.
+</quote2>
+</quote>
+<answers>
+<answer>Dan </answer>
+<answer>Bill </answer>
+</answers>
+<correctAnswer> A  </correctAnswer>
+<source> David Bender </source>
+</schema>
+
+<schema>
+<text>
+<txt1>
+Dan had to stop Bill from toying with the injured bird.
+</txt1>
+<pron> He </pron>
+<txt2> 
+is very cruel.
+</txt2>
+</text>
+<quote>
+<pron>He </pron>
+<quote2>
+is very cruel.
+</quote2>
+</quote>
+<answers>
+<answer>Dan </answer>
+<answer>Bill </answer>
+</answers>
+<correctAnswer> B  </correctAnswer>
+<source> David Bender </source>
+</schema>
+
+</collection>
