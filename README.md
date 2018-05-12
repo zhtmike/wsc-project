@@ -10,7 +10,7 @@ The installation script has been tested on Ubuntu 16.04.
 
 ## Installation
 
-1. In the current directory, run `python -m pip install --user -r requirements.txt` to install all depencies.
+1. In the current directory, run `python -m pip install --user -r requirements.txt` to install all dependencies.
 
 2. Download Stanford CoreNLP from <http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip> and unzip it into `./corenlp/`.
 
