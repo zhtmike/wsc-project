@@ -4,19 +4,17 @@ The installation script has been tested on Ubuntu 16.04.
 
 ## Prerequisite
 
-1. A Java 8 environment is required to run Stanford CoreNLP. The command `java -version` shows the java version, and the version should be greater than 1.8.0. Java SE can be downloaded from <http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html>
+1. A Java 8 environment is required to run Stanford CoreNLP.
 
 2. A Python3 environment is required to run the scripts. A shell script `./create_python_env.sh` is provided to download Miniconda3 and install it locally.
 
 ## Installation
 
-1. If the python envrionment is created by `./create_python_env.sh`, user needs to activate the python3 environment first by running `source ./miniconda3/bin/activate`.
+1. In the current directory, run `python -m pip install --user -r requirements.txt` to install all depencies.
 
-2. In the current directory, run `python -m pip install --user -r requirements.txt`.
+2. Download Stanford CoreNLP from <http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip> and unzip it into `./corenlp/`.
 
-3. Download Stanford CoreNLP from <http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip> and unzip it into `./corenlp/`, or you may unzip it in other places.
-
-4. Download the model files <http://nlp.stanford.edu/software/stanford-english-corenlp-2017-06-09-models.jar> and <http://nlp.stanford.edu/software/stanford-english-kbp-corenlp-2017-06-09-models.jar> and save them in the same directory, e.g. `./corenlp/stanford-corenlp-full-2017-06-09/`.
+3. Download the model files <http://nlp.stanford.edu/software/stanford-english-corenlp-2017-06-09-models.jar> and <http://nlp.stanford.edu/software/stanford-english-kbp-corenlp-2017-06-09-models.jar> and save them in the same directory, e.g. `./corenlp/stanford-corenlp-full-2017-06-09/`.
 
 ## Running the script
 
